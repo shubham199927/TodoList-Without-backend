@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+}
+.leftSide{
+    width: 50%;
+    padding: 5%;
+}
+.box{
+    background-color: rgb(223, 223, 223);
+    padding: 5% 10%;
+    border-radius: 1%;
+}  
+.rightSide{
+    width: 50%;;
+    margin: auto;
+
+}
+.enter{
+    border: none;
+    font-size: 35px;
+    font-weight: 600;
+}
+ul {
+    list-style: none;
+    
+  }
+  
+  li{
+    font-size: 20px;
+    cursor: pointer;
+    margin:20px;
+  }
+  
+  
+  .checked{
+  text-decoration: line-through;
+}
+.checked::before{
+  content: "✔️";
+  display: inline-block;
+    width: 1em;
+    height: 0.8em;
+    position: relative;
+    top: 0.1rem;
+    margin-right: 0.2rem;
+}
+.liDesign{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.liDesign div{
+  display: flex;
+  align-items: center;
+}
+.whiteBox{
+  width: 100px;
+  height: 20px;
+  display: none;
+}
+.visible{
+  display: block ;
+}
